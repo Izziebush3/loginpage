@@ -114,3 +114,25 @@ button:hover {
     font-size: 15px;
     font-family: cursive;
 }
+
+@media (max-width: 768px) {
+    .main-background .sub-background {
+        width: 0px;
+        height: 0px;
+        flex: 0;
+    }
+
+    .main-background .sub-background p {
+        color: transparent;
+    }
+
+    .main-background .login-flex {
+        flex: auto;
+        background-image: url(plant1.jpeg);
+        border-radius: 29px;
+    }
+
+    .main-background .login-flex h2 {
+        color: #a3b18a;
+    }
+}
