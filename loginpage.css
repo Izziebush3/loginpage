@@ -79,6 +79,13 @@
     color: #3a5a40;
 }
 
+.input-container #togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
 .input-container input {
     width: 100%;
     height: 40px;
